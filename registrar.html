@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/style/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <title>Registrar</title>
+</head>
+
+<body>
+
+    <div id="form-container">
+        <h1>Registrar</h1>
+        <form id="form-box" action="#" method="post">
+            <div class="input-form">
+                <label for="register-name">Nome Completo</label>
+                <input type="text" name="register-name" id="register-name" placeholder="Digite seu nome completo"
+                    required>
+            </div>
+            <div class="input-form">
+                <label for="register-email">E-mail</label>
+                <input type="email" name="register-email" id="register-email" placeholder="Digite seu e-mail" required>
+            </div>
+            <div class="input-form">
+                <label for="register-password">Senha</label>
+                <input type="password" name="register-password" id="register-password" placeholder="Crie uma senha"
+                    required>
+            </div>
+            <div class="input-form">
+                <label for="register-confirm-password">Confirmar Senha</label>
+                <input type="password" name="register-confirm-password" id="register-confirm-password"
+                    placeholder="Confirme sua senha" required>
+            </div>
+            <input type="submit" value="Registrar" class="btn-primary">
+        </form>
+        <a href="index.html" class="back-link">Já tem uma conta? Login</a>
+    </div>
+
+</body>
+
+</html>

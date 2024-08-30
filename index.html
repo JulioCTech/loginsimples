@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/style/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="icon" type="image/x-icon" href="/assets/img/login.png">
+    <title>Login</title>
+</head>
+
+<body>
+
+    <div id="form-container">
+        <h1> <img src="assets/img/react32.png" alt=""> Sem Limites</h1>
+        <form id="form-box" action="#" method="post">
+            <div class="input-form">
+                <label for="email">E-mail</label>
+                <input type="email" name="email" id="email" placeholder="Digite seu e-mail" required>
+            </div>
+            <div class="input-form">
+                <label for="password">Senha</label>
+                <input type="password" name="password" id="password" placeholder="Digite sua senha" required>
+            </div>
+            <div id="options">
+                <label>
+                    <input type="checkbox"> Lembrar do meu acesso
+                </label>
+                <a href="esqueceu.html" id="forgot-pass">Esqueceu a senha?</a>
+            </div>
+            <input type="submit" value="Entrar" class="btn-primary">
+        </form>
+
+        <div id="social-box">
+            <p>Ou entre com</p>
+            <div class="social-icons">
+                <i class="fab fa-google" aria-hidden="true"></i>
+                <i class="fab fa-facebook" aria-hidden="true"></i>
+                <i class="fab fa-linkedin" aria-hidden="true"></i>
+            </div>
+        </div>
+
+        <div id="register-box">
+            <p>Ainda não tem uma conta?</p>
+            <a href="registrar.html">Registrar</a>
+        </div>
+    </div>
+
+</body>
+
+</html>
